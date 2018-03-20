@@ -1,0 +1,4 @@
+flask
+numpy
+firebase_admin
+pyserial
