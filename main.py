@@ -154,7 +154,7 @@ def esp():
 def bot():
     arg1= request.args['arg1']
     print(checker(arg1))
-    return "botsuccess"
+    return checker(arg1)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
